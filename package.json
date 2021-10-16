@@ -1,0 +1,23 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "DB module",
+  "main": "index.js",
+  "scripts": {
+    "lint":"standart",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-NekoEdg/platziverse-platziverse-db.git"
+  },
+  "author": "Edgard Alvarado (Dev-NekoEdg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-NekoEdg/platziverse-platziverse-db/issues"
+  },
+  "homepage": "https://github.com/Dev-NekoEdg/platziverse-platziverse-db#readme",
+  "devDependencies": {
+    "standart": "^6.1.0"
+  }
+}
