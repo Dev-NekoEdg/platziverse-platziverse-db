@@ -16,6 +16,9 @@ module.exports = async function (config) {
     MetricModel.belongsTo(AgentModel)
 
     await sequalize.authenticate()
+ 
+    // si faltan modeles en la DB, sequelize los crea.
+    // sequalize.sync()
 
     const Agent = {}
     const Metric = {}
