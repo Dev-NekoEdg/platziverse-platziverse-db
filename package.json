@@ -4,7 +4,7 @@
   "description": "DB module",
   "main": "index.js",
   "scripts": {
-    "lint":"standart",
+    "lint": "standart",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,10 @@
   "homepage": "https://github.com/Dev-NekoEdg/platziverse-platziverse-db#readme",
   "devDependencies": {
     "standart": "^6.1.0"
+  },
+  "dependencies": {
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^7.0.0-alpha.2"
   }
 }
